@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'poppins',sans-serif;
+    box-sizing:border-box;
+}
+.ditiyo{
+    font-size:400%;
+    color: aquamarine;
+    font-family:"Brush Script MT", cursive ,serif;  
+ 
+}
+.sohoz{
+    font-size:400%;
+    color: aquamarine;
+    font-family:"Brush Script MT", cursive ,serif;  
+}
+.head{
+    background: transparent;
+}
+select{
+background: transparent;
+} 
+.first{
+    width:100%;
+    height: 100pvh;
+    border:0;
+    background-image:linear-gradient(rgba(248, 122, 122, 0.651),#3551b5) ,url(./images&others/bg.jpg); 
+    background-size: cover;
+}
+
+.second{
+    width:50%;
+    align-items: centar;
+    background-position: center;
+  
+
+
+}
+.ditiyo{
+    font-size:400%;
+    color: aquamarine;
+    font-family:"Brush Script MT", cursive ,serif;
+
+}
+.third{
+width: 60%;
+}
+form{
+    width: 90%;
+     max-width: 600px;
+     background-position: center;
+     align-items: center;
+}
+.input-group{
+    margin-bottom: 30px;
+    position:relative;
+}
+input,textarea{
+    width: 100%;
+    padding:10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height:100%;
+    position:absolute;
+    left:0;
+    top: 0;
+    padding:10px;
+    color: #fff;
+    cursor:text;
+    transition: o.2s;
+    align-items: center;
+}
+button{
+    padding: 10px 0;
+    color:#fff ;
+    outline: none;
+    background:transparent ;
+    border: 1px solid #fff;
+    width:100% ;
+    cursor: pointer;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+
+}
+.other{
+    width:100%;
+    height: 100pvh;
+    border:0;
+    background-color: #3F52AF;
+    background-size: cover;
+}
+.line{
+    color: aquamarine;
+    font-size: 40px;
+}
+
